@@ -1,0 +1,7 @@
+# gcloud app deploy --project=go-get-issue-15410
+
+runtime: go114
+handlers:
+- url: /.*
+  script: auto
+
